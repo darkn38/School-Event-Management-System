@@ -1,0 +1,52 @@
+.contact-us-page {
+    background-image: url('../images/temp111.jpg'); /* Background image for Contact Us */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contact-us-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for form */
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-content h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-us-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-us-content input, .contact-us-content textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-us-content button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-us-content button:hover {
+    background-color: #45a049;
+}

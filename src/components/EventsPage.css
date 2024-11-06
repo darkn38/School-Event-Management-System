@@ -1,0 +1,112 @@
+/* Events Page Styles */
+.events-page {
+    background-image: url('../images/temp111.jpg'); /* Background image for the Events page */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 60px 20px;
+}
+
+/* Events Header */
+.events-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.events-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Events Content */
+.events-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+/* Left Column - Events List */
+.events-list {
+    flex: 1 1 45%; /* Takes up 45% of the width */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.event-card {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* Indicate that the card is clickable */
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+}
+
+.event-card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.event-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Right Column - Registration & Payment */
+.payment-section {
+    flex: 1 1 45%; /* Takes up 45% of the width */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.payment-section input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.payment-section button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.payment-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Payment Success Section */
+.payment-success {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    color: black;
+}
